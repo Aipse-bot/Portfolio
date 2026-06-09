@@ -10,16 +10,16 @@ export default function AboutPage() {
           <div className="md:col-span-2">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-600 mb-6">
-                Hi! I'm Kent Virgil Espia, a highly motivated Computer Science student specializing in data analysis, backend logic, and high-performance software development. 
-                I have strong expertise in building scalable data pipelines, analyzing complex datasets, and developing robust backend services.
+                Full-Stack Developer and AI enthusiast with a strong foundation in web development, data engineering, and machine learning. 
+                Proven ability to build end-to-end applications — from intuitive UI/UX designs to scalable backend services and AI-powered features.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Currently pursuing my degree at Cebu Institute of Technology - University (2022-2026), I've completed internships at Ollopa Corp. 
-                and built diverse projects including AI-powered startup analysis platforms, advanced ML pipelines, and cybersecurity analysis tools.
+                Experienced in training and integrating ML models, building data pipelines, and developing production-ready systems. 
+                Currently pursuing a Bachelor of Science in Computer Science at Cebu Institute of Technology - University (2022-2026).
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                I'm passionate about leveraging AI-assisted development tools responsibly, maintaining rigorous standards for code quality, 
-                and continuously expanding my technical expertise in emerging technologies like machine learning and cloud computing.
+                Driven to create software that is not only functional but intelligent. I specialize in full-stack development 
+                with a focus on data engineering and AI/ML integration.
               </p>
             </div>
           </div>
@@ -36,39 +36,43 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-8">Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Frontend</h3>
+              <h3 className="text-xl font-semibold mb-4">Languages & Environments</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>✓ React & Next.js</li>
-                <li>✓ JavaScript</li>
-                <li>✓ Tailwind CSS</li>
-                <li>✓ HTML5 & CSS3</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Backend</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>✓ Python & Django</li>
-                <li>✓ Node.js</li>
+                <li>✓ JavaScript & React</li>
+                <li>✓ Python</li>
                 <li>✓ Java</li>
-                <li>✓ SQL & Databases</li>
+                <li>✓ Next.js & Node.js</li>
+                <li>✓ SQL, C, C++</li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Data & ML</h3>
+              <h3 className="text-xl font-semibold mb-4">Data & Analytics</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>✓ Pandas & NumPy</li>
                 <li>✓ TensorFlow & PyTorch</li>
                 <li>✓ Data Pipelines</li>
-                <li>✓ Log Analysis</li>
+                <li>✓ Log Analysis (EVTX, Firewall, Proxy)</li>
+                <li>✓ Structured Reporting</li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Tools & Other</h3>
+              <h3 className="text-xl font-semibold mb-4">Frameworks & Tools</h3>
               <ul className="space-y-2 text-gray-600">
+                <li>✓ Django & Django REST Framework</li>
+                <li>✓ Tailwind CSS</li>
                 <li>✓ Git & GitHub</li>
-                <li>✓ AWS & API Integration</li>
+                <li>✓ AWS</li>
+                <li>✓ Vercel</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold mb-4">Core Competencies</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>✓ API Integrations</li>
+                <li>✓ Backend Services</li>
+                <li>✓ Data Transformation</li>
                 <li>✓ Technical Documentation</li>
-                <li>✓ Agile Development</li>
+                <li>✓ Full-Stack Development</li>
               </ul>
             </div>
           </div>
@@ -102,7 +106,32 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* Certifications Section */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-8">Certifications</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 className="font-semibold text-lg mb-2">Zuitt Certificate of Completion</h3>
+              <p className="text-gray-600">JavaScript Elective Course</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 className="font-semibold text-lg mb-2">Codechum Java Certificate</h3>
+              <p className="text-gray-600">Java Programming</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 className="font-semibold text-lg mb-2">Codechum C Certificate</h3>
+              <p className="text-gray-600">C Programming Fundamentals</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 className="font-semibold text-lg mb-2">Accenture Academy Certificate</h3>
+              <p className="text-gray-600">AWS Curriculum Completion</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 className="font-semibold text-lg mb-2">TOPCIT Level 3 Certificate</h3>
+              <p className="text-gray-600">Technology Professional Competency Certification</p>
+            </div>
+          </div>
+        </section>
         <section className="bg-blue-600 text-white rounded-lg p-12 text-center">
           <h2 className="text-3xl font-bold mb-4">Let's Connect</h2>
           <p className="text-lg mb-6">
