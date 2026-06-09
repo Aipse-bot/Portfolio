@@ -11,11 +11,11 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Hi, I'm Your Name
+            Hi, I'm Kent Virgil Espia
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            A passionate full-stack developer building beautiful and functional web applications. 
-            Welcome to my portfolio showcasing my latest projects and expertise.
+            Computer Science student specializing in data analysis, backend logic, and high-performance software development. 
+            Experienced in building scalable data pipelines, analyzing complex datasets, and developing robust backend services.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Link href="/projects" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">
@@ -52,12 +52,13 @@ export default function Home() {
             <div>
               <h2 className="text-4xl font-bold mb-6">About Me</h2>
               <p className="text-gray-600 mb-4">
-                I'm a full-stack developer with 5+ years of experience building web applications. 
-                I specialize in React, Next.js, Node.js, and cloud technologies.
+                I'm a highly motivated Computer Science student at Cebu Institute of Technology - University 
+                with a strong focus on data analysis, backend logic, and high-performance software development. 
+                I have hands-on experience building scalable data pipelines and analyzing complex datasets.
               </p>
               <p className="text-gray-600 mb-6">
-                When I'm not coding, you can find me contributing to open-source projects, 
-                writing technical blogs, or exploring new technologies.
+                My expertise spans full-stack development with JavaScript, Python, Java, and modern frameworks like React, Next.js, and Node.js. 
+                I'm passionate about leveraging AI-assisted development tools responsibly while maintaining rigorous standards for code quality.
               </p>
               <Link href="/about" className="text-blue-600 hover:text-blue-700 font-semibold">
                 Learn More About Me →
