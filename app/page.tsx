@@ -14,8 +14,8 @@ export default function Home() {
             Hi, I'm Kent Virgil Espia
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Computer Science student specializing in data analysis, backend logic, and high-performance software development. 
-            Experienced in building scalable data pipelines, analyzing complex datasets, and developing robust backend services.
+            Full-Stack Developer and AI enthusiast with a strong foundation in web development, data engineering, and machine learning. 
+            Proven ability to build end-to-end applications — from intuitive UI/UX designs to scalable backend services and AI-powered features.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Link href="/projects" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">
@@ -52,13 +52,14 @@ export default function Home() {
             <div>
               <h2 className="text-4xl font-bold mb-6">About Me</h2>
               <p className="text-gray-600 mb-4">
-                I'm a highly motivated Computer Science student at Cebu Institute of Technology - University 
-                with a strong focus on data analysis, backend logic, and high-performance software development. 
-                I have hands-on experience building scalable data pipelines and analyzing complex datasets.
+                I'm a full-stack developer and AI enthusiast with experience in training and integrating ML models, 
+                building data pipelines, and developing production-ready systems. I'm driven to create software that is 
+                not only functional but intelligent.
               </p>
               <p className="text-gray-600 mb-6">
-                My expertise spans full-stack development with JavaScript, Python, Java, and modern frameworks like React, Next.js, and Node.js. 
-                I'm passionate about leveraging AI-assisted development tools responsibly while maintaining rigorous standards for code quality.
+                My expertise spans JavaScript, Python, Java, React, Next.js, and Node.js, with strong capabilities in 
+                data analytics, ML pipelines, and backend services. I specialize in building end-to-end applications 
+                from intuitive UI/UX designs to scalable backend infrastructure.
               </p>
               <Link href="/about" className="text-blue-600 hover:text-blue-700 font-semibold">
                 Learn More About Me →
