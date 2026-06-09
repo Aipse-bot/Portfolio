@@ -10,17 +10,16 @@ export default function AboutPage() {
           <div className="md:col-span-2">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-600 mb-6">
-                Hi! I'm a passionate full-stack developer with over 5 years of experience building web applications. 
-                I specialize in modern JavaScript frameworks and technologies, with a focus on creating clean, 
-                scalable, and user-friendly applications.
+                Hi! I'm Kent Virgil Espia, a highly motivated Computer Science student specializing in data analysis, backend logic, and high-performance software development. 
+                I have strong expertise in building scalable data pipelines, analyzing complex datasets, and developing robust backend services.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                My journey in web development started with a curiosity about how websites work. Over the years, 
-                I've honed my skills in React, Next.js, Node.js, and cloud technologies like AWS and Firebase.
+                Currently pursuing my degree at Cebu Institute of Technology - University (2022-2026), I've completed internships at Ollopa Corp. 
+                and built diverse projects including AI-powered startup analysis platforms, advanced ML pipelines, and cybersecurity analysis tools.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                When I'm not coding, you can find me contributing to open-source projects, writing technical blog posts, 
-                or exploring new technologies. I'm always eager to learn and stay updated with the latest industry trends.
+                I'm passionate about leveraging AI-assisted development tools responsibly, maintaining rigorous standards for code quality, 
+                and continuously expanding my technical expertise in emerging technologies like machine learning and cloud computing.
               </p>
             </div>
           </div>
@@ -40,7 +39,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-semibold mb-4">Frontend</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>✓ React & Next.js</li>
-                <li>✓ TypeScript</li>
+                <li>✓ JavaScript</li>
                 <li>✓ Tailwind CSS</li>
                 <li>✓ HTML5 & CSS3</li>
               </ul>
@@ -48,28 +47,28 @@ export default function AboutPage() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Backend</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>✓ Node.js & Express</li>
-                <li>✓ MongoDB & PostgreSQL</li>
-                <li>✓ Firebase</li>
-                <li>✓ REST APIs</li>
+                <li>✓ Python & Django</li>
+                <li>✓ Node.js</li>
+                <li>✓ Java</li>
+                <li>✓ SQL & Databases</li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Tools & DevOps</h3>
+              <h3 className="text-xl font-semibold mb-4">Data & ML</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>✓ Pandas & NumPy</li>
+                <li>✓ TensorFlow & PyTorch</li>
+                <li>✓ Data Pipelines</li>
+                <li>✓ Log Analysis</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold mb-4">Tools & Other</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>✓ Git & GitHub</li>
-                <li>✓ Docker</li>
-                <li>✓ AWS & Vercel</li>
-                <li>✓ CI/CD</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Other</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>✓ Agile Methodologies</li>
-                <li>✓ Web Performance</li>
-                <li>✓ Testing & QA</li>
-                <li>✓ Technical Writing</li>
+                <li>✓ AWS & API Integration</li>
+                <li>✓ Technical Documentation</li>
+                <li>✓ Agile Development</li>
               </ul>
             </div>
           </div>
@@ -80,24 +79,24 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-8">Experience</h2>
           <div className="space-y-8">
             <div className="border-l-4 border-blue-600 pl-6">
-              <h3 className="text-xl font-semibold">Senior Frontend Developer</h3>
-              <p className="text-gray-600 mb-2">Tech Company Inc. | 2022 - Present</p>
+              <h3 className="text-xl font-semibold">Software Development Intern</h3>
+              <p className="text-gray-600 mb-2">Ollopa Corp. | May 2025 - July 2025</p>
               <p className="text-gray-600">
-                Leading frontend development for multiple projects, mentoring junior developers, and implementing best practices.
+                Gained hands-on experience in full-stack software development, working with modern web technologies and backend systems.
               </p>
             </div>
             <div className="border-l-4 border-blue-600 pl-6">
-              <h3 className="text-xl font-semibold">Full Stack Developer</h3>
-              <p className="text-gray-600 mb-2">Startup Co. | 2020 - 2022</p>
+              <h3 className="text-xl font-semibold">BS Computer Science</h3>
+              <p className="text-gray-600 mb-2">Cebu Institute of Technology - University | 2022 - 2026</p>
               <p className="text-gray-600">
-                Built and maintained full-stack web applications, managed databases, and optimized application performance.
+                Pursuing degree with focus on data analysis, backend development, and AI/ML technologies. Built diverse projects showcasing full-stack development capabilities.
               </p>
             </div>
             <div className="border-l-4 border-blue-600 pl-6">
-              <h3 className="text-xl font-semibold">Junior Developer</h3>
-              <p className="text-gray-600 mb-2">Web Solutions Ltd. | 2019 - 2020</p>
+              <h3 className="text-xl font-semibold">Project Developer</h3>
+              <p className="text-gray-600 mb-2">Self-Directed | Ongoing</p>
               <p className="text-gray-600">
-                Started my professional journey, learning best practices and contributing to various web projects.
+                Developed multiple full-stack applications including Fundora AI platform, ML data pipelines, cybersecurity analysis tools, and educational platforms.
               </p>
             </div>
           </div>
