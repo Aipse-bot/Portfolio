@@ -57,31 +57,28 @@ export default function ContactPage() {
           <div className="md:col-span-1 space-y-8">
             <div>
               <h3 className="font-semibold text-lg mb-2">Email</h3>
-              <a href="mailto:hello@example.com" className="text-blue-600 hover:text-blue-700">
-                hello@example.com
+              <a href="mailto:kentvirgilespia14@gmail.com" className="text-blue-600 hover:text-blue-700">
+                kentvirgilespia14@gmail.com
               </a>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Phone</h3>
-              <a href="tel:+1234567890" className="text-blue-600 hover:text-blue-700">
-                +1 (234) 567-890
+              <a href="tel:+639995078948" className="text-blue-600 hover:text-blue-700">
+                +63 999 507 8948
               </a>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Location</h3>
-              <p className="text-gray-600">Your City, Your Country</p>
+              <p className="text-gray-600">Liloan, Cebu, Philippines</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-4">Follow Me</h3>
               <div className="flex gap-4">
-                <a href="https://github.com" className="text-gray-600 hover:text-blue-600">
+                <a href="https://github.com/Aipse-bot" className="text-gray-600 hover:text-blue-600">
                   GitHub
                 </a>
-                <a href="https://linkedin.com" className="text-gray-600 hover:text-blue-600">
+                <a href="https://linkedin.com/in/kentvirgilespia" className="text-gray-600 hover:text-blue-600">
                   LinkedIn
-                </a>
-                <a href="https://twitter.com" className="text-gray-600 hover:text-blue-600">
-                  Twitter
                 </a>
               </div>
             </div>
